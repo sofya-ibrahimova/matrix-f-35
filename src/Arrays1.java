@@ -6,6 +6,8 @@ public class Arrays1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+
+
         int num1 = 5;
         int[] array1 = new int[num1];
         int[] array2 = new int[num1];
