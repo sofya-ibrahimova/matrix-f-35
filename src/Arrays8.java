@@ -15,6 +15,7 @@ public class Arrays8 {
             temp /= 10;
         }
 
+
         int[] arr = new int[digits];
         temp = number;
         for (int i = digits - 1; i >= 0; i--) {
