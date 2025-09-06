@@ -15,7 +15,7 @@ public class Arrays5 {
         int sum = 0;
         int num = 0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] % 3 == 0 && array[i] % 2 == 0) {
+            if (array[i] % 6 == 0) {
                 sum += array[i];
                 num++;
             }

@@ -13,16 +13,13 @@ public class Arrays3 {
             array[i] = sc.nextInt();
         }
         System.out.println(Arrays.toString(array));
-        int[] array2 = new int[num];
-        for (int i = 0; i < array.length-2; i++) {
 
-                array2[i + 1] = array[i + 1];
-                array2[0] = array[array.length - 1];
-                array2[array2.length - 1] = array[0];
+        int temp;
+        temp = array[0];
+        array[0]= array[array.length-1];
+        array[array.length-1]= temp;
+        System.out.println(Arrays.toString(array));
 
-            }
-        System.out.println("yerleri deyismis hali");
-            System.out.println(Arrays.toString(array2));
 
         }
     }
