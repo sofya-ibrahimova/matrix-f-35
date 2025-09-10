@@ -5,19 +5,23 @@ public class Lesson8 {
     public static void main(String[] args) {
 //        methods
 
-        addTwoNumbers(21,1);
-int[]array = {1,2,3,4};
-sumArray(array);
-averageArray(array);
+        addTwoNumbers(21, 1);
 
-maxOfThree(12,13,14);
+        int[] array = {1, 2, 3, 4};
+        sumArray(array);
+        averageArray(array);
 
-factorialOfNumber(3);
-reverse(123);
-isPalindrome(123321);
-longestNumber(12,12222);
+        maxOfThree(12, 13, 14);
 
+        factorialOfNumber(3);
+
+        reverse(123);
+
+        isPalindrome(123321);
+
+        longestNumber(12, 12222);
     }
+
     static void addTwoNumbers(int a, int b) {
         int res = a + b;
         System.out.println(res);
@@ -50,9 +54,7 @@ longestNumber(12,12222);
         }
         String maksNum = "Maksimal eded = " + max;
         print(maksNum);
-
     }
-
     static void factorialOfNumber(int a) {
         int eded = a;
         int factorial = 1;
@@ -62,7 +64,6 @@ longestNumber(12,12222);
         String f = eded + "! = " + factorial;
         print(f);
     }
-
     static void reverse(long a) {
         long reverse = 0;
         while (a > 0) {
@@ -72,7 +73,6 @@ longestNumber(12,12222);
         String r = "Ters eded = " + reverse;
         print(r);
     }
-
     static void sumArray(int[] x) {
         int sum = 0;
         for (int i = 0; i < x.length; i++) {
@@ -81,7 +81,6 @@ longestNumber(12,12222);
         String cem = "Elementlerin cemi = " + sum;
         print(cem);
     }
-
     static boolean isPalindrome(int a) {
         int reverse = 0;
         int number = a;
@@ -90,9 +89,7 @@ longestNumber(12,12222);
         }
         System.out.println(a == reverse);
         return a == reverse;
-
     }
-
     static void longestNumber(int a, int b) {
         int num1 = 0;
         int firstNum = a;
@@ -110,7 +107,7 @@ longestNumber(12,12222);
             System.out.println(firstNum);
         } else System.out.println(secondNum);
     }
-    }
+}
 
 
 
