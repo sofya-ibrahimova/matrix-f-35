@@ -3,22 +3,26 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Transport bmw = new Transport();
+        bmw.color = "Black";
+        bmw.speed = 250;
+        bmw.weight = 150;
+        bmw.coordinate = new int[]{0, 0, 0};
 
-        Scanner sc = new Scanner(System.in);
+//        System.out.println(bmw.getValues());
 
-        int num = 2;
-        int[][] array = new int[num][num];
-        System.out.println("elementleri daxil edin");
-        for (int i = 0; i < array.length; i++)
-            for (int j = 0; j < array[i].length; j++) {
-                array[i][j] = sc.nextInt();
-            }
+//        System.out.println("color: " + bmw.color + "\nspeed: " + bmw.speed + "\nweight: " + bmw.weight + "\ncoordinate: " + bmw.coordinate );
+        Transport truck = new Transport();
+        truck.setValues(150, 230, "White", new int[]{0, 1, 3});
+//        System.out.println("Truck color: " + truck.color + "\nTruck weight:" + truck.weight + "\nTruck speed: " + truck.speed
+//                + "\nTruck coordinate: " + Arrays.toString(truck.coordinate));
+        Transport mersedec = new Transport();
+        mersedec.setValues(250, 150, "Black", new int[]{0, 0, 0});
 
-        for (int i =0 ; i< array.length; i++){for (int j =0; j< array[i].length; j++)
-        {
-            System.out.print(array[i][j] + " ");
+        System.out.println(mersedec.equals(bmw));
 
-        }
-            System.out.println();
-        }
+        System.out.println(bmw.equals(truck));
+
     }}
+
+

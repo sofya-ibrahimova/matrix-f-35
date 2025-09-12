@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class bubbleSortt {
+public class BubbleSortt {
     public static void main(String[] args) {
         int [] array = {5,1,3,4,2};
 bubbleSort(array);

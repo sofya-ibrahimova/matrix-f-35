@@ -1,7 +1,6 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class binarySearch {
+public class BinarySearch {
     public static void main(String[] args) {
         int[] x = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 //      int b =  linearSearch(x, 11);

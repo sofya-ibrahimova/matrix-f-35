@@ -5,21 +5,21 @@ public class Lesson8 {
     public static void main(String[] args) {
 //        methods
 
-        addTwoNumbers(21, 1);
-
-        int[] array = {1, 2, 3, 4};
-        sumArray(array);
-        averageArray(array);
-
-        maxOfThree(12, 13, 14);
-
-        factorialOfNumber(3);
-
-        reverse(123);
-
-        isPalindrome(123321);
-
-        longestNumber(12, 12222);
+//        addTwoNumbers(21, 1);
+//
+//        int[] array = {1, 2, 3, 4};
+//        sumArray(array);
+//        averageArray(array);
+//
+//        maxOfThree(12, 13, 14);
+//
+//        factorialOfNumber(3);
+//
+//        reverse(123);
+//
+//        isPalindrome(123321);
+//
+//        longestNumber(12, 12222);
     }
 
     static void addTwoNumbers(int a, int b) {
