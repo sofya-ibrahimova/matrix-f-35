@@ -1,5 +1,6 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Transport {
 
@@ -22,6 +23,7 @@ public class Transport {
         for (int i = 0; i < coordinate.length; i++) {
             coordinatee += coordinate[i] + "\n";
         }
+        System.out.println(info + coordinatee);
         return info + coordinatee;
     }
 
