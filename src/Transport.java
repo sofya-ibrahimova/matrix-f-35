@@ -15,6 +15,19 @@ public class Transport {
         this.color = color;
         this.coordinate = coordinate;
     }
+    Transport(){
+
+    }
+
+   public Transport (float speed, float weight, String color, int [] coordinate){
+        this.speed = speed;
+        this.weight = weight;
+        this.coordinate = coordinate;
+        this.color = color;
+
+        System.out.println(getValues());
+
+    }
 
     public String getValues() {
 
