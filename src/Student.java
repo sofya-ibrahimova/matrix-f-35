@@ -11,8 +11,4 @@ public class Student {
     void printStudentInfo() {
         System.out.println("Ad: " + this.name + " Yas: " + this.age);
     }
-
-
-
-
 }
